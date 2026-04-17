@@ -64,3 +64,6 @@ main a[href="mailto"] {
     color: #AD1457;
     font-weight: bold;
 }
+html{
+    scroll-behavior: smooth;
+}
