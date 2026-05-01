@@ -27,7 +27,7 @@ h1, h2, h3 {
 
 /* Navbar */
 header{
-    background-color: blueviolet;
+    background-color: rgb(236, 114, 236);
     padding: 15px 0;
     position: sticky;
     top: 0;
@@ -114,7 +114,7 @@ header{
     gap: 20px;
 }
 .product-item{ 
-    background:rgb(202, 171, 194) ;
+    background:rgb(216, 212, 215) ;
     border-radius: 10px;
     padding: 15px;
     text-align: center;
@@ -216,7 +216,7 @@ header{
 
 /* footer */ 
 footer{
-    background:  rgb(202, 171, 194);
+    background:  rgb(236, 114, 236);
     color: antiquewhite;
     padding: 20px 0;
     text-align: center;
