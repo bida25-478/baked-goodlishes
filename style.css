@@ -221,14 +221,6 @@ footer{
     padding: 20px 0;
     text-align: center;
 }
-.social-links img {
-    height: 25px;
-    margin: 10px 5px;
-    transition: transform 0.3s;
-}
-.social-links img:hover {
-    transform: scale(1.2);
-}
 
 /* rsponsive */
 @media(max-width: 768px) {
