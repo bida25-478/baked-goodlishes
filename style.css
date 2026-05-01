@@ -203,7 +203,7 @@ header{
 .contact input,
 .contact textarea {
     padding: 10px;
-    border: 1px solid antiquewhite;
+    border: 1px solid #ccc;
     border-radius: 5px;
 }
 .contact button {
@@ -226,7 +226,7 @@ footer{
     margin: 10px 5px;
     transition: transform 0.3s;
 }
-.social-links img:hoover {
+.social-links img:hover {
     transform: scale(1.2);
 }
 
