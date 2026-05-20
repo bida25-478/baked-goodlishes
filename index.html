@@ -1,275 +1,399 @@
 <!DOCTYPE html>
 <html lang="en">
-    <body>
+    <head>
         <meta charset="UTF-8">
+        <meta http-equv="X-UA-compatible" content="IE=edge">
         <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
         <title>Baked goods website</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.mon.css">
         <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-        <script src="js/script.js"></script>
-        <header>
-            <nav class="navbar container">
-                <div class="logo">
-                    <img src="Baking Cooking Sale Logo.jpg" alt="baked goods logo">
-                </div>
-                <div id="menu-bar" class="fas fa-bars"></div>
-                <ul class="nav-links">
-                    <li><a href="#home" class="active">home</a></li>
-                    <li><a href="#speciality">speciality</a></li>
-                    <li><a href="#about">about</a></li>
-                    <li><a href="#popular">popular</a></li>
-                    <li><a href="#review">review</a></li>
-                    <li><a href="#order">order</a></li>
-                </ul>
-            </nav>
-        </header>
-        <!--home section-->
-        <section id="home" class="hero">
-            <div class="hero-overlay">
-                <div class="hero-text">
-                    <h1> Welcome to our bakery!</h1>
-                    <p>Here you can order whatever your cravings desire for our lovely pastry lovers we provide them freshly baked
-                        either you want something sweet or salty we got it right here for you all fresh</p>
-                    <a href="#speciality" class="btn">order now</a>
-                </div>
-            </div>
-        </section>
-        <!--speciality section-->
-        <section id="speciality" class="speciality container">
-            <h2 class="section-title">our specialities</h2>
-            <div class="box-container">
-                <div class="box">
+    </head>
+    <body>
+    <header> 
+        <a href="#" class="logo"><i class="fas-fa-untensils"></i>resto.</a>
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#goodies">goodies</a>
+            <a href="#about">about</a>
+            <a href="#menu">menu</a>
+            <a href="#review">review</a>
+            <a href="#order">order</a>
+        </nav>
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icons"></i>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+        </div>
+    </header>
+    <!--serch form-->
+    <form action="" id="search-form">
+        <input type="search" placeholder="search here" name="" id="search-box">
+        <label for="search-box" class="fas-fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
+    <!--home section-->
+    <section class="home" id="home">
+        <div class="swipper-container home-slider">
+            <div class="swiper-wraper wrapper">
+                <div class="swiper-slide slide">
                     <div class="content">
-                    <img src="a42719ac-61d4-490d-bd3d-da18f30c48a3.jpg">
-                    <h3>cinnamon rolls</h3>
-                    <p>soft and sweet buns</p>
+                        <span>our special goodies</span>
+                        <h3>cinnamon rolls</h3>
+                        <p>soft and sweet buns with a hint of spice</p>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                    <div class="image">
+                        <img src="image/download (1).jfif" alt="">
                     </div>
                 </div>
-                <div class="box">
+                <div class="swiper-slide slide">
                     <div class="content">
-                    <img src="59617971-1dca-4176-9fc2-4bade6fad05e.jpg">
-                    <h3>cakes</h3>
-                    <p>fudgy and moist chocolate cake</p>
+                        <span>our special goodies</span>
+                        <h3>sandwiches</h3>
+                        <p>all you can get breakfast or lunch sandwiches</p>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                    <div class="image">
+                        <img src="image/download (1).jfif" alt="">
                     </div>
                 </div>
-                <div class="box">
+                <div class="swiper-slide slide">
                     <div class="content">
-                    <img src="678a0e98-a6bf-4776-912e-6b2976a5ef6a.jpg">
-                    <h3>frosted lemon cookies</h3>
-                    <p>sweet and sour zesty refreshing cookies</p>
+                        <span>our special goodies</span>
+                        <h3>brownies</h3>
+                        <p>various brownie flavors either gluton or gluton-free just tastes as amazing</p>
+                        <a href="#" class="btn">order now</a>
                     </div>
-                </div>
-                <div class="box">
-                    <div class="content">
-                    <img src="519ec2ac-5b1c-4754-bbd1-a96121facd53.jpg">
-                    <h3>chocolate chip cookies</h3>
-                    <p> warm like mothers homemade cookies </p>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="content">
-                    <img src="51bcf22d-a40e-44a2-9361-fd8df4cab84b.jpg">
-                    <h3>strawberry shortcakes</h3>
-                    <p>sweet and soft strawberry rolls enfused with cloud9 whipped cream</p>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="content">
-                    <img src="9d9689ca-07fa-4a5c-bc6b-bb333021a28a.jpg">
-                    <h3>chocolate eclairs</h3>
-                    <p>a spread of chocolate on top infused with our famous cloud9 whipped cream with a crunch to it</p>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="content">
-                    <img src="53573e24-9553-4dd3-9ffa-207da9bf53d1.jpg">
-                    <h3>chocolate croissants</h3>
-                    <p>soft and sweet buns infused with runy chocolate lava</p>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="content">
-                    <img src="461b28d8-9879-4e08-8198-598fd357d1af.jpg">
-                    <h3>nutella tiramisu</h3>
-                    <p>coffee and chocolate powerfully paired up with a lovely soft sponge</p>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="content">
-                    <img src="7aa7a571-cf4b-409d-b850-f43cd548d99e.jpg">
-                    <h3>macaarons</h3>
-                    <p>cruncy, sweet, tiny and colorful treats</p>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="content">
-                    <img src="19e5605f-9276-43eb-87a0-1e18390ef603.jpg">
-                    <h3>vanilla cupcakes</h3>
-                    <p>soft and moist plain vanilla cupcakes with a sweet buttercream to top it all off</p>
+                    <div class="image">
+                        <img src="image/download (1).jfif" alt="">
                     </div>
                 </div>
             </div>
+            <div class="swiper-pagniation"></div>
+        </div>
+    </section>
+    <!--goodies section-->
+    <section class="goodies" id="goodies">
+        <h3 class="sub-heading">our baked goods</h3>
+        <h1 class="heading">popular baked goods</h1>
+        <div class="box-container">
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/" alt="">
+                <h3>tasty food</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>BWP50.00</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/" alt="">
+                <h3>tasty food</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>BWP50.00</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/" alt="">
+                <h3>tasty food</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>BWP50.00</span>
+                <a href="#" class="btn">add to cart</a>
+            </div><div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/" alt="">
+                <h3>tasty food</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>BWP50.00</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/" alt="">
+                <h3>tasty food</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>BWP50.00</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/" alt="">
+                <h3>tasty food</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>BWP50.00</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
         </section>
         <!--about section-->
-        <section id="about" class="about container">
-            <div class="about-text">
-                <h2 class="section-title">About us</h2>
-                <p>Baked goods is a local bakery providing freshly baked goods daily for you, your family and friends to share</p>
-                <a href="#contact" class="btn secondary-btn">Visit us</a>
-                <h2>About me</h2>
-                <p>Hi and welcome! as the name suggests baked goodies we sell sweet and freshly baked goods for everyone and anywhere.
-                   The business started in 2010.At that time i was in college and was just a student that missed having to cook up something in the kitchen as well as the taste of my moms goods.
-                   So i decided to create this bakery with all the home baked goods that college students long for eversince the begining of their college year for them to have a heart warming 
-                   feeling even if far from home.This is my first business hope you enjoy my service and products!</p>
+        <section class="about" id="about">
+            <h3 class="sub-heading">about us</h3>
+            <h1 class="heading">about me</h1>
+            <div class="row">
+                <img src="images/" alt="">
             </div>
-            <div class="about-img">
-                <img src="undraw_cooking_j2pu.svg">
+
+            <div class="content">
+                <h3>best baked goods in the area</h3>
+                <p>Baked goods is a local bakery providing freshly baked goods daily for you, 
+                    as well as your family and friends to share</p>
+                <h3>about founder</h3>
+                <p>Welcome! as the name suggests baked goodies we sell sweet and salty freshly baked goods for everyone
+                    and anywhere.The business started in 2010. At that time i was a college student that missed having
+                    to cook up something in the, it was my form of therapy in a way but not only that it made me miss my 
+                    mothers homemade goodies when the warmth and smell filled the whole house. I love that nostalgic feeling
+                    thats why i had decided to open my own bakery with all the homemade baked goods that college students long
+                    for eversince they moved across the globe I opened it so they atleast have a place that not only reminds them
+                    of home but rather feels like it. Hope you enjoy my service and baked goods! </p>    
+                    <div class="icons">
+                        <i class="fas fa-shipping-fast"></i>
+                        <span>free delivery</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-headset"></i>
+                        <span>24/7 services</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-dollar-sign"></i>
+                        <span>easy payments</span>
+                    </div>
             </div>
         </section>
-        <!--popular section-->
-        <section id="popular" class="popular container">
-            <h1 class="heading">Most popular</h1>
-            <div clas="box-container">
+        <!--menu section-->
+        <section class="menu" id="menu">
+            <h3 class="sub-heading">our menu</h3>
+            <h1 class="heading">today's special</h1>
+            <div class="box-container">
                 <div class="box">
-                    <span class="price">P30</span>
-                    <img src="images/download (6).jfif" alt="">
-                    <h3>fresh sourdough bread</h3>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
+                    <div class="imag">
+                        <img src="images/" alt="">
+                        <a href="#" class="fas fa-heart"></a>
                     </div>
-                    <a href="#" class="btn">order now</a>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>cakes</h3>
+                        <p>moist and spongy cakes of various flavours</p>
+                        <a href="#" class="btn">add to cart</a>
+                        <span class="price">BWP 100</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imag">
+                        <img src="images/" alt="">
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>cakes</h3>
+                        <p>moist and spongy cakes of various flavours</p>
+                        <a href="#" class="btn">add to cart</a>
+                        <span class="price">BWP 100</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imag">
+                        <img src="images/" alt="">
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>cakes</h3>
+                        <p>moist and spongy cakes of various flavours</p>
+                        <a href="#" class="btn">add to cart</a>
+                        <span class="price">BWP 100</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imag">
+                        <img src="images/" alt="">
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>cakes</h3>
+                        <p>moist and spongy cakes of various flavours</p>
+                        <a href="#" class="btn">add to cart</a>
+                        <span class="price">BWP 100</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imag">
+                        <img src="images/" alt="">
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>cakes</h3>
+                        <p>moist and spongy cakes of various flavours</p>
+                        <a href="#" class="btn">add to cart</a>
+                        <span class="price">BWP 100</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imag">
+                        <img src="images/" alt="">
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>cakes</h3>
+                        <p>moist and spongy cakes of various flavours</p>
+                        <a href="#" class="btn">add to cart</a>
+                        <span class="price">BWP 100</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imag">
+                        <img src="images/" alt="">
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>cakes</h3>
+                        <p>moist and spongy cakes of various flavours</p>
+                        <a href="#" class="btn">add to cart</a>
+                        <span class="price">BWP 100</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imag">
+                        <img src="images/" alt="">
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>cakes</h3>
+                        <p>moist and spongy cakes of various flavours</p>
+                        <a href="#" class="btn">add to cart</a>
+                        <span class="price">BWP 100</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imag">
+                        <img src="images/" alt="">
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>cakes</h3>
+                        <p>moist and spongy cakes of various flavours</p>
+                        <a href="#" class="btn">add to cart</a>
+                        <span class="price">BWP 100</span>
+                    </div>
                 </div>
             </div>
-            <div class="box">
-                    <span class="price">P30</span>
-                    <img src="images/download (6).jfif" alt="">
-                    <h3>fresh sourdough bread</h3>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <a href="#" class="btn">order now</a>
-                </div>
-                <div class="box">
-                    <span class="price">P30</span>
-                    <img src="images/download (6).jfif" alt="">
-                    <h3>fresh sourdough bread</h3>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <a href="#" class="btn">order now</a>
-                </div>
-                <div class="box">
-                    <span class="price">P30</span>
-                    <img src="images/download (6).jfif" alt="">
-                    <h3>fresh sourdough bread</h3>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <a href="#" class="btn">order now</a>
-                </div>
-                <div class="box">
-                    <span class="price">P30</span>
-                    <img src="images/download (6).jfif" alt="">
-                    <h3>fresh sourdough bread</h3>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <a href="#" class="btn">order now</a>
-                </div>
-                <div class="box">
-                    <span class="price">P30</span>
-                    <img src="images/download (6).jfif" alt="">
-                    <h3>fresh sourdough bread</h3>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <a href="#" class="btn">order now</a>
-                </div>
-                <div class="box">
-                    <span class="price">P30</span>
-                    <img src="images/download (6).jfif" alt="">
-                    <h3>fresh sourdough bread</h3>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <a href="#" class="btn">order now</a>
-                </div>
-                <div class="box">
-                    <span class="price">P30</span>
-                    <img src="images/download (6).jfif" alt="">
-                    <h3>fresh sourdough bread</h3>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <a href="#" class="btn">order now</a>
-                </div>
-                <div class="box">
-                    <span class="price">P30</span>
-                    <img src="images/download (6).jfif" alt="">
-                    <h3>fresh sourdough bread</h3>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <a href="#" class="btn">order now</a>
-                </div>
-                <div class="box">
-                    <span class="price">P30</span>
-                    <img src="images/download (6).jfif" alt="">
-                    <h3>fresh sourdough bread</h3>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <a href="#" class="btn">order now</a>
-                </div>
         </section>
         <!--review section-->
-        <section id="review" class="review container">
-            <div class="container">
-                <h2 class="section-title">what our customers say</h2>
-                <div class="box-container">
-                    <div class="box">
-                        <img src="images/" alt="">
-                        <h3>-Michelle jones</h3>
+        <section class="review" id="review">
+            <h3 class="sub-heading">customer's reviews</h3>
+            <h1 class="heading">what they say</h1>
+            <div class="swipper-container review-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide slide">
+                        <i class="fas fa-quote-right"></i>
+                        <div class="user">
+                            <img src="images/" alt="">
+                            <div class="user-info">
+                            <h3></h3>-Michelle jones</h3>
                         <div class="stars">
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
@@ -277,84 +401,167 @@
                             <i class="fas fa-star"></i>
                             <i class="far fa-star"></i>
                         </div>
+                            </div>
                         <p>"Best bakery in the area, I am definitely becoming a regular."</p>
-                    </div>
-                    <div class="box">
-                        <img src="images/" alt="">
-                        <h3>-kefilwe machete</h3>
-                        <div class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="far fa-star"></i>
                         </div>
-                        <p>"Great service wonderful and fresh pastries everything is just top notch"</p>
-                    </div>
-                    <div class="box">
-                        <img src="images/" alt="">
-                        <h3>-Jennyne mokena</h3>
-                        <div class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="far fa-star"></i>
-                        </div>
-                        <p>"Affordable and beautifully soft pastries, 10/10 recommend everything"</p>
                     </div>
                 </div>
             </div>
-        </section>
-        <!--steps section-->
-        <section class="steps">
-            <div class="box">
-                <img src="images/" alt="">
-                <h3>choose what you desire</h3>
+            <div class="swipper-container review-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide slide">
+                        <i class="fas fa-quote-right"></i>
+                        <div class="user">
+                            <img src="images/" alt="">
+                            <div class="user-info">
+                            <h3></h3>-Michelle jones</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                            </div>
+                        <p>"Best bakery in the area, I am definitely becoming a regular."</p>
+                        </div>
+                    </div>
+                </div>
+            </div><div class="swipper-container review-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide slide">
+                        <i class="fas fa-quote-right"></i>
+                        <div class="user">
+                            <img src="images/" alt="">
+                            <div class="user-info">
+                            <h3></h3>-Michelle jones</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                            </div>
+                        <p>"Best bakery in the area, I am definitely becoming a regular."</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="box">
-                <img src="images/" alt="">
-                <h3>free and fast delivery</h3>
-            </div>
-            <div class="box">
-                <img src="images/" alt="">
-                <h3>easy payment methods</h3>
-            </div>
-            <div class="box">
-                <img src="images/" alt="">
-                <h3>enjoy your fresh goodies</h3>
+            <div class="swipper-container review-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide slide">
+                        <i class="fas fa-quote-right"></i>
+                        <div class="user">
+                            <img src="images/" alt="">
+                            <div class="user-info">
+                            <h3></h3>-Michelle jones</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                            </div>
+                        <p>"Best bakery in the area, I am definitely becoming a regular."</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <!--order section-->
-        <section id="order" class="order container">
-            <h2 class="section-title">Place your orders here</h2>
-            <div class="row">
-                <div class="image">
-                <img src="images/Baking Cooking Sale Logo.jpg" alt="">
-                </div>
+        <section id="order" class="order">
+            <h3 class="sub-heading">Order now</h3>
+            <h1 class="heading">free and fast</h1>
             <form action = "">
                 <div class="inputbox">
-                <input type="text" placeholder="name" required><br>
-                <input type="email" placeholder="email" required><br>
+                    <div class="input">
+                        <span>your name</span>
+                       <input type="text" placeholder="enter your name" required><br> 
+                    </div>
                 </div>
-                <div class="inputbox">
-                <input type="number" placeholder="number" required><br>
-                <input type="text" placeholder="food name" required><br>
+                <div class="input">
+                    <span>your number</span>
+                    <input type="number" placeholder="enter your number" required><br>
                 </div>
-                <textarea placeholder="address" name="" id="" cols="30" rows="10" required></textarea><br>
-                <button type="submit" class="btn">place order</button>
+                 <div class="inputbox">
+                    <div class="input">
+                        <span>your order</span>
+                       <input type="text" placeholder="enter food name" required><br> 
+                    </div>
+                </div>
+                <div class="input">
+                    <span>additional toppings</span>
+                    <input type="text" placeholder="extra with" required><br>
+                </div>
+                 <div class="inputbox">
+                    <div class="input">
+                        <span>how much</span>
+                       <input type="number" placeholder="how many orders" required><br> 
+                    </div>
+                </div>
+                <div class="input">
+                    <span>date and time</span>
+                    <input type="datetime-local"><br>
+                </div>
+                 <div class="inputbox">
+                    <div class="input">
+                        <span>your address</span>
+                        <textarea placeholder="enter your address" name="" id="" cols="30" rows="10" required></textarea><br>
+                    </div>
+                </div>
+                <div class="input">
+                    <span>your message</span>
+                    <textarea placeholder="enter your message" name="" id="" cols="30" rows="10" required></textarea><br>
+                </div>
+            </div>
+            <input type="submit" value="order now" class="btn">
             </form>
-            </div>
         </section>
-        <!--footer-->
+        <!--footer section-->
         <section class ="footer">
-            <div class="share">
-                <a href ="#" class="btn">facebook</a>
-                <a href ="#" class="btn">instagram</a>
-                <a href ="#" class="btn">twitter</a>
-                <a href ="#" class="btn">tiktok</a>
-                <p>&copy; 2026 Baked goods, contact us:Bakedgoods@gmail.com</p>
+            <div class="box-container">
+                <div class="box">
+                    <h3>locations</h3>
+                    <a href ="#">india</a>
+                    <a href ="#">japan</a>
+                    <a href ="#">russia</a>
+                    <a href ="#">USA</a>
+                    <a href ="#">france</a>
+                </div>
+                <div class="box">
+                    <h3>quick links</h3>
+                    <a href ="#home">home</a>
+                    <a href ="#goodies">goodies</a>
+                    <a href ="#about">about</a>
+                    <a href ="#menu">menu</a>
+                    <a href ="#review">review</a>
+                    <a href="#order">order</a>
+                </div>
+                <div class="box">
+                    <h3>contact info</h3>
+                    <a href ="#">+267 794 678 549</a>
+                    <a href ="#">36 90559</a>
+                    <a href ="#">Bakedgoods@gmail.com</a>
+                </div>
+                <div class="box">
+                    <h3>follow us</h3>
+                    <a href ="#">instagram</a>
+                    <a href ="#">facebook</a>
+                    <a href ="#">youtube</a>
+                    <a href ="#">tiktok</a>
+                    <a href ="#">twitter</a>
+                </div>
             </div>
+                <div class="credit">copyright @2026 Baked Goods</div>
         </section>
+        
+        
+        
+        
+        
+        <script src="js/script.js"></script>
+        <scrpt src="https://unpkg.com/swiper/swiper-bundle.min.js"></scrpt>
     </body>
-</html>        
+</html>   
