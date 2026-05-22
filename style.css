@@ -407,12 +407,12 @@ menu.box-container .box .content .stars{
 
 menu.box-container .box .content h3{
     color: lightcoral;
-    font-size: 2.5rem;
+    font-size: 10rem;
 }
 
 menu.box-container .box .content p{
     color: lightslategray;
-    font-size: 1.6rem;
+    font-size: 10rem;
     padding: .5rem 0;
     line-height: 1.5;
 }
@@ -453,7 +453,7 @@ menu.box-container .box .content .price{
 
 .review .slide .user h3{
     color: lightcoral;
-    font-size: 4rem;
+    font-size: 1.5rem;
     padding-bottom: .5rem;
 }
 
@@ -463,7 +463,7 @@ menu.box-container .box .content .price{
 }
 
 .review .slide p{
-    font-size: 4rem;
+    font-size: 1.5rem;
     line-height: 1.8;
     color: lightcoral;
 }
